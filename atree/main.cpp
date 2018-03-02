@@ -226,6 +226,14 @@ void display_avl(node *ptr, int level)
         display_avl(ptr->left, level + 1);
     }
 }
+    // if run this code in turbo c++ remove comments in max function
+    /* 
+    int max(int a,int b) {
+    if(a>b) {
+    return a }
+    else {
+    return b }
+    */
 
 
 public:
